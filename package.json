@@ -1,0 +1,25 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "bcrypt": "^5.1.1",
+    "cookie-session": "^2.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}
